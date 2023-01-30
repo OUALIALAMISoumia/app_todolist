@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App">
 
-      <FromContext.Provider value={{tasks,settasks,task,setTask,addTask,deletetask}}>
+      <FromContext.Provider  value={{tasks,settasks,task,setTask,addTask,deletetask}}>
           <Formtasks/>
       </FromContext.Provider>
 
